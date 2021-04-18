@@ -37,7 +37,7 @@ $$
 L(q + \delta q, \dot{q} + \delta \dot{q}, t) = L(q, \dot{q}, t) + \partial q \frac{\partial}{\partial q} L(q, \dot{q}, t) + \partial \dot{q} \frac{\partial}{\partial \dot{q}} L(q, \dot{q}, t) + \partial q ~ \partial \dot{q} \frac{\partial}{\partial q} \frac{\partial}{\partial \dot{q}} L(q, \dot{q}, t)
 $$
 
-Ignoring the second order term on the end, when $S$ is minimized and $\delta S = 0$ we have
+Ignoring the second order term on the end, when $$S$$ is minimized and $$\delta S = 0$$ we have
 
 $$
 \int^{t_2}_{t_1} (\delta L - L) ~ dt = \int^{t_2}_{t_1} \left( \partial q ~ \frac{\partial L}{\partial q} + \partial \dot{q} ~ \frac{\partial L}{\partial \dot{q}} \right) dt = 0
@@ -58,13 +58,13 @@ $$
 \left( \frac{\partial L}{\partial \dot{q}} \delta q \right) \Bigg \rvert^{t_2}_{t_1} - \int^{t_2}_{t_1} \delta q \frac{d}{dt} \frac{\partial L}{\partial \dot{q}} ~ dt
 $$
 
-Since $\delta q(t_1) = \delta q(t_2) = 0$ the first term vanishes. Substituting back, we have
+Since $$\delta q(t_1) = \delta q(t_2) = 0$$ the first term vanishes. Substituting back, we have
 
 $$
 \delta S = \int^{t_2}_{t_1} \left( \frac{\partial L}{\partial q} - \frac{d}{dt} \frac{\partial L}{\partial \dot{q}} \right) \delta q ~ dt
 $$
 
-Since $\delta S = 0$ for all $\delta q$ we choose, the integrand itself must be zero
+Since $$\delta S = 0$$ for all $$\delta q$$ we choose, the integrand itself must be zero
 
 $$
 \frac{d}{dt} \frac{\partial L}{\partial \dot{q}_i} - \frac{\partial L}{\partial q_i} = 0 \qquad i = 1, 2, ..., s
@@ -72,7 +72,7 @@ $$
 
 Which is referred to as the Lagrange's Equations of Motion, written above for $s$ coordinates.
 
-Lagrange's Equations describe the relationship between accelerations, velocities, and positions of a mechanical system. They yield $s$ 2nd order differential equations which require $2s$ boundary conditions to solve for the equations of motion in time $q_i (t)$
+Lagrange's Equations describe the relationship between accelerations, velocities, and positions of a mechanical system. They yield $$s$$ 2nd order differential equations which require $$2s$$ boundary conditions to solve for the equations of motion in time $$q_i (t)$$
 
 ### Sidenote
 
@@ -94,15 +94,15 @@ $$
 \delta f(q(t_2), t_2) = f(q(t_2), t_2) - f(q(t_2) + \delta q(t_2), t_2) = f(q(t_2), t_2) - f(q(t_2), t_2) - \delta q(t_2) \frac{\partial f}{\partial q} \Big \rvert_{t_2}
 $$
 
-Since $\delta q(t_2) = 0$ by definition, $\delta f(q(t_2), t_2)$ and subsequently $\delta f(q(t_1), t_1)$ all vanish and $\delta S' = 0$
+Since $$\delta q(t_2) = 0$$ by definition, $$\delta f(q(t_2), t_2)$$ and subsequently $$\delta f(q(t_1), t_1)$$ all vanish and $$\delta S' = 0$$
 
 # Inertial Reference Frame
 
 A frame of reference can always be chosen such that space is homogeneous and isotropic and time is also homogeneous. In this frame a free body which is at rest at an instant remains at rest. Such a frame is an _inertial frame of reference_.
 
-The Lagrangian of a free particle in in an inertial frame of reference must then not explicitly contain the position vector $\vec{r}$ or or the time $t$ due to the homogeneity of space and time in an inertial frame. Thus the lagrangian of a free particle can only be a function of velocity $\vec{v}$. Additionally the isotropic property of space further restricts the Lagrangian to be a function of the magnitude of velocity only, $L = L(\vec{v} \cdot \vec{v})$.
+The Lagrangian of a free particle in in an inertial frame of reference must then not explicitly contain the position vector $$\vec{r}$$ or or the time $$t$$ due to the homogeneity of space and time in an inertial frame. Thus the lagrangian of a free particle can only be a function of velocity $$\vec{v}$$. Additionally the isotropic property of space further restricts the Lagrangian to be a function of the magnitude of velocity only, $$L = L(\vec{v} \cdot \vec{v})$$.
 
-Then $\partial L / \partial ~ \vec{r} = 0$ and Lagrange's equation for a free particle becomes
+Then $$\partial L / \partial ~ \vec{r} = 0$$ and Lagrange's equation for a free particle becomes
 
 $$
 \frac{d}{dt} \left( \frac{\partial L}{\partial ~ \vec{v}} \right) = 0
@@ -110,7 +110,7 @@ $$
 
 # The Law of Inertia
 
-We apply Lagrange's equation onto $L(\vec{v} \cdot \vec{v})$
+We apply Lagrange's equation onto $$L(\vec{v} \cdot \vec{v})$$
 
 $$
 \frac{\partial L}{\partial ~ \vec{v}} = 2 ~ \vec{v} ~ L'(\vec{v} \cdot \vec{v})
@@ -121,13 +121,13 @@ $$
 2 ~ \vec{a} ~ L'(\vec{v} \cdot \vec{v}) + 4 ~ \vec{v} (\vec{a} \cdot \vec{v}) ~ L''(\vec{v} \cdot \vec{v}) = 0
 $$
 
-Taking the dot product of both sides with $\vec{v}$
+Taking the dot product of both sides with $$\vec{v}$$
 
 $$
 0 = 2 (\vec{a} \cdot \vec{v}) ( L'(\vec{v} \cdot \vec{v}) + 2 (\vec{v} \cdot \vec{v}) L''(\vec{v} \cdot \vec{v})
 $$
 
-In one solution $\vec{a} = 0$ and thus $\vec{v}$ is constant. The other solution arises from a differential equation
+In one solution $$\vec{a} = 0$$ and thus $$\vec{v}$$ is constant. The other solution arises from a differential equation
 
 $$
 L'(\vec{v} \cdot \vec{v}) + 2 (\vec{v} \cdot \vec{v}) L''(\vec{v} \cdot \vec{v}) = 0
@@ -137,7 +137,7 @@ $$
 L(\vec{v} \cdot \vec{v}) = \alpha \sqrt{\vec{v} \cdot \vec{v}} + \beta
 $$
 
-While this is differentiable with respect to $\vert v \vert = \sqrt{\vec{v} \cdot \vec{v}}$, it is not differentiable with respect to $\vec{v}$ for $\vec{v} = \vec{0}$ and $\frac{\partial L}{\partial ~ \vec{v}} = 0$ is no longer valid. Thus this second solution is inconsistent and discarded.
+While this is differentiable with respect to $$\vert v \vert = \sqrt{\vec{v} \cdot \vec{v}}$$, it is not differentiable with respect to $$\vec{v}$$ for $$\vec{v} = \vec{0}$$ and $$\frac{\partial L}{\partial ~ \vec{v}} = 0$$ is no longer valid. Thus this second solution is inconsistent and discarded.
 
 Thus
 $$
@@ -150,7 +150,7 @@ In any inertial frame, free motion takes place with a velocity constant in magni
 
 Given another frame moving uniformly in a straight line relative to a given inertial frame free motion continues to take place with a constant velocity. This gives rise to an infinite number of reference frames in which the laws of mechanics are the same, constituting _Galileo's Relativity Principle_. The equivalence of these frames shows that there is no single absolute frame of reference.
 
-Given two coordinates $\vec{r}$ and $\vec{r}'$ in two frames $K$ and $K'$ which the latter moves relative to the former with velocity $\vec{V}$, the coordinates are related by the _Galilean Transformation_
+Given two coordinates $$\vec{r}$$ and $$\vec{r}'$$ in two frames $$K$$ and $$K'$$ which the latter moves relative to the former with velocity $$\vec{V}$$, the coordinates are related by the _Galilean Transformation_
 
 $$
 \vec{r} = \vec{r}' + \vec{V} t
@@ -158,34 +158,34 @@ $$
 
 # Free Particle Lagrangian
 
-Comparing two inertial frames related by an infinitesimal velocity $\vec{\epsilon}$, the form of the lagrangians in each frame should remain the same that is depending only on the square of velocity. Further they should differ from each other only by the total time derivative of a function of coordinates and time.
+Comparing two inertial frames related by an infinitesimal velocity $$\vec{\epsilon}$$, the form of the lagrangians in each frame should remain the same that is depending only on the square of velocity. Further they should differ from each other only by the total time derivative of a function of coordinates and time.
 
-Given the relation between the inertial frames, the velocities are related through $\vec{v}' = \vec{v} + \vec{\epsilon}$. The lagrangians are related then by
+Given the relation between the inertial frames, the velocities are related through $$\vec{v}' = \vec{v} + \vec{\epsilon}$$. The lagrangians are related then by
 
 $$
 L' = L(\vec{v}' \cdot \vec{v}') = L( (\vec{v} + \vec{\epsilon}) \cdot (\vec{v} + \vec{\epsilon}) ) =
 L(\vec{v} \cdot \vec{v} + 2 \vec{v} \cdot \vec{\epsilon} + \vec{\epsilon} \cdot \vec{\epsilon} )
 $$
 
-Expanding to first order in terms of $v^2 = \vec{v} \cdot \vec{v}$
+Expanding to first order in terms of $$v^2 = \vec{v} \cdot \vec{v}$$
 
 $$
 L(v'^2) = L(v^2) + \frac{\partial L}{\partial v^2} 2 \vec{v} \cdot \vec{\epsilon}
 $$
 
-Since the second term already depends on $\vec{v}$ linearly, to remain so (and thus a total time derivative of position), $\partial L / \partial v^2$ must be independent of velocity. Thus the lagrangian is a linear function of $v^2$ up to a constant factor. Written as
+Since the second term already depends on $$\vec{v}$$ linearly, to remain so (and thus a total time derivative of position), $$\partial L / \partial v^2$$ must be independent of velocity. Thus the lagrangian is a linear function of $$v^2$$ up to a constant factor. Written as
 
 $$
 L = \tfrac{1}{2} m v^2
 $$
 
-By repeated transformations of infinitesimal relative velocities, the Lagrangian is also invariant for a finite relative velocity $V$ between frames.
+By repeated transformations of infinitesimal relative velocities, the Lagrangian is also invariant for a finite relative velocity $$V$$ between frames.
 
 $$
 L' = \tfrac{1}{2} m v'^2 = \tfrac{1}{2} m (\vec{v} + \vec{V})^2 = \tfrac{1}{2} m v^2 + m \vec{v} \cdot \vec{V} + \tfrac{1}{2} m V^2 = L + d (m \vec{r} \cdot \vec{V} + \tfrac{1}{2} m V^2 t) / dt
 $$
 
-Where the second term is a total time derivative of position and time and does not affect the action $S$.
+Where the second term is a total time derivative of position and time and does not affect the action $$S$$.
 
 ### Sidenote
 
@@ -193,7 +193,7 @@ An additional constant could be added, but it does not matter in terms of Lagran
 
 # Multiple Particle Lagrangian
 
-For a system of particle which only interact with each other (closed system), the interaction can be described as a function of the coordinates $-U(r_1, r_2, ...)$ known as the _potential energy_.
+For a system of particle which only interact with each other (closed system), the interaction can be described as a function of the coordinates $$-U(r_1, r_2, ...)$$ known as the _potential energy_.
 
 $$
 L = \sum \tfrac{1}{2} m_a v_a^2 - U(r_1, r_2, ...)
@@ -217,9 +217,9 @@ $$
 \text{Force} = m_a \frac{d v_a}{dt} = - \frac{\partial U}{\partial r_a}
 $$
 
-Where Force is expressed as in the classical Newton's Equation. The force, and thereby acceleration, only depend on the position of the system. These equations are identical up to a constant. The usual method is to define $U$ such that as $r \rightarrow \infty$, $U \rightarrow \infty$.
+Where Force is expressed as in the classical Newton's Equation. The force, and thereby acceleration, only depend on the position of the system. These equations are identical up to a constant. The usual method is to define $$U$$ such that as $$r \rightarrow \infty$$, $$U \rightarrow \infty$$.
 
-This lagrangian can be rewritten terms of generalized coordinates $q, \dot{q}$ by expressing the cartesian coordintaes $r_a$, $v_a$ in terms of the generalized coordinates.
+This lagrangian can be rewritten terms of generalized coordinates $$q, \dot{q}$$ by expressing the cartesian coordintaes $$r_a$$, $$v_a$$ in terms of the generalized coordinates.
 
 $$
 r_a = f(q_1, q_2, ..., q_s) \qquad v_a = \sum_k \frac{\partial f_a}{\partial q_k} \dot{q}_k
@@ -235,13 +235,13 @@ $$
 L = T_a (q_a, \dot{q}_a) + T_b (q_b, \dot{q}_b) - U(q_a, q_b)
 $$
 
-Where $T_{a}$, $T_{b}$ are the kinetic energy terms. To solve for $L_a$, we can treat $q_b$ as independent variables which depend on time, $q_b (t)$.
+Where $$T_{a}$, $T_{b}$$ are the kinetic energy terms. To solve for $$L_a$$, we can treat $$q_b$$ as independent variables which depend on time, $$q_b (t)$$.
 
 $$
 L = T_a (q_a, \dot{q}_a) + T_b (q_b (t), \dot{q}_b (t)) - U(q_a, q_b (t))
 $$
 
-And then changing perspective and considering $t$ instead of $q_b (t)$, and $ T_b (q_b (t), \dot{q}_b (t))$ can be ignored as a time derivative of a function that depends only on time, the lagrangian is now considered as
+And then changing perspective and considering $$t$$ instead of $$q_b (t)$$, and $$ T_b (q_b (t), \dot{q}_b (t))$$ can be ignored as a time derivative of a function that depends only on time, the lagrangian is now considered as
 
 $$
 L = T_a (q_a, \dot{q}_a) - U(q_a, t)
@@ -259,7 +259,7 @@ $$
 m \dot{v} = - \frac{\partial U}{\partial r}
 $$
 
-If the force $F$ is independent of $r$ in the field, and thus the field is uniform,
+If the force $$F$$ is independent of $$r$$ in the field, and thus the field is uniform,
 
 $$
 U(r, t) = -F \cdot r
