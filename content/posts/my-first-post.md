@@ -8,7 +8,7 @@ These are notes based on Mechanics by Landau and Lifshitz. Going over the main p
 
 # Principle of Least Action
 
-* Generalized Coordinates : Any $$s$$ quantities $$q_1, q_2, ..., q_3$$ which define the position of a system with $$s$$ degrees of freedom.
+* Generalized Coordinates : Any $$ s $$ quantities $$ q_1, q_2, ..., q_3 $$ which define the position of a system with $$ s $$ degrees of freedom.
 * Generalized Velocities : The respective time derivatives $$\dot{q}_1, \dot{q}_2, ..., \dot{q}_3$$ of the generalized coordinates
 
 If at an instant all generalized coordinates $$q$$ and generalized velocities $$\dot{q}$$ are given, the accelerations $$\ddot{q}$$ at that instant are uniquely defined.
