@@ -1,4 +1,16 @@
 baseURL = "https://abnowack.com/"
 languageCode = "en-us"
-title = "Aaron Nowack"
 theme = "contrast"
+title = "Aaron Nowack's Blog"
+
+[params]
+  math = true
+  description = "my blog"
+  title = "test"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
