@@ -5,8 +5,6 @@ title = "Aaron Nowack's Blog"
 
 [params]
   math = true
-  description = "my blog"
-  title = "test"
 
 [menu]
   [[menu.main]]
