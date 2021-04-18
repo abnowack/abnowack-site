@@ -13,17 +13,17 @@ These are notes based on Mechanics by Landau and Lifshitz. Going over the main p
 * Generalized Coordinates : Any $$s$$ quantities $$q_1, q_2, ..., q_3$$ which define the position of a system with $$s$$ degrees of freedom.
 * Generalized Velocities : The respective time derivatives $$\dot{q}_1, \dot{q}_2, ..., \dot{q}_3$$ of the generalized coordinates
 
-If at an instant all generalized coordinates $q$ and generalized velocities $\dot{q}$ are given, the accelerations $\ddot{q}$ at that instant are uniquely defined.
+If at an instant all generalized coordinates $$q$$ and generalized velocities $$\dot{q}$$ are given, the accelerations $$\ddot{q}$$ at that instant are uniquely defined.
 
-Mechanical motion is characterized by a function $L(q,\dot{q},t)$ and a condition where at instants $t_1, t_2$ in time the positions $q_1, q_2$ change such that the integral
+Mechanical motion is characterized by a function $$L(q,\dot{q},t)$$ and a condition where at instants $$t_1, t_2$$ in time the positions $$q_1, q_2$$ change such that the integral
 $$
 S = \int^{t_2}_{t_1} L(q,\dot{q},t) dt
 $$
-takes an extremum value. $L(q,\dot{q},t)$ is the _Lagrangian_, and $S$ the _Action_.
+takes an extremum value. $$L(q,\dot{q},t)$$ is the _Lagrangian_, and $$S$$ the _Action_.
 
-To determine under what conditions S is minimized, start with $q$ such that $S$ over times $t_1$, $t_2$ is at a minimum. Then any change in $q$, $q(t) \rightarrow q(t) + \delta q(t)$ increases $S$. Positions at $q(t_1)$, $q(t_2)$ are already known so $\delta q(t_1) = \delta q(t_2) = 0$.
+To determine under what conditions S is minimized, start with $$q$$ such that $$S$$ over times $$t_1$$, $$t_2$$ is at a minimum. Then any change in $$q$$, $$q(t) \rightarrow q(t) + \delta q(t)$$ increases $$S$$. Positions at $$q(t_1)$$, $$q(t_2)$$ are already known so $$\delta q(t_1) = \delta q(t_2) = 0$$.
 
-Then the change in $S$ 
+Then the change in $$S$ $
 
 $$
 \delta S = \int^{t_2}_{t_1} L(q + \delta q, \dot{q} + \delta \dot{q}, t) ~ dt - 
