@@ -25,10 +25,14 @@ To determine under what conditions S is minimized, start with $$q$$ such that $$
 
 Then the change in $$S$$
 
+
+
 $$
  \delta S = \int^{t_2}_{t_1} L(q + \delta q, \dot{q} + \delta \dot{q}, t) ~ dt - 
            \int^{t_2}_{t_1} L(q, \dot{q}, t) ~ dt
 $$
+
+
 
 Expanding $L(q + \delta q, \dot{q} + \delta \dot{q}, t)$ using the first order approximation $f(x_0 + \delta x) \approx f(x_0) + \delta x \frac{df}{dx} \Big \rvert_{x_0}$
 
