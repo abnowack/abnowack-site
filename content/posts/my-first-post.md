@@ -33,7 +33,7 @@ $$
 
 
 
-Expanding $L(q + \delta q, \dot{q} + \delta \dot{q}, t)$ using the first order approximation $f(x_0 + \delta x) \approx f(x_0) + \delta x \frac{df}{dx} \Big \rvert_{x_0}$
+Expanding $$L(q + \delta q, \dot{q} + \delta \dot{q}, t)$$ using the first order approximation $$f(x_0 + \delta x) \approx f(x_0) + \delta x \frac{df}{dx} \Big \rvert_{x_0}$$,
 
 $$
 L(q + \delta q, \dot{q} + \delta \dot{q}, t) = L(q, \dot{q}, t) + \partial q \frac{\partial}{\partial q} L(q, \dot{q}, t) + \partial \dot{q} \frac{\partial}{\partial \dot{q}} L(q, \dot{q}, t) + \partial q ~ \partial \dot{q} \frac{\partial}{\partial q} \frac{\partial}{\partial \dot{q}} L(q, \dot{q}, t)
