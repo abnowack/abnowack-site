@@ -23,13 +23,12 @@ takes an extremum value. $$L(q,\dot{q},t)$$ is the _Lagrangian_, and $$S$$ the _
 
 To determine under what conditions S is minimized, start with $$q$$ such that $$S$$ over times $$t_1$$, $$t_2$$ is at a minimum. Then any change in $$q$$, $$q(t) \rightarrow q(t) + \delta q(t)$$ increases $$S$$. Positions at $$q(t_1)$$, $$q(t_2)$$ are already known so $$\delta q(t_1) = \delta q(t_2) = 0$$.
 
-Then the change in $$S$$
+Then the change in $$S$$,
 
 
 
 $$
- \delta S = \int^{t_2}_{t_1} L(q + \delta q, \dot{q} + \delta \dot{q}, t) ~ dt - 
-           \int^{t_2}_{t_1} L(q, \dot{q}, t) ~ dt
+ \delta S = \int^{t_2}_{t_1} L(q + \delta q, \dot{q} + \delta \dot{q}, t) ~ dt \int^{t_2}_{t_1} L(q, \dot{q}, t) ~ dt
 $$
 
 
