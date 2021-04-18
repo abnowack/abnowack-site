@@ -229,7 +229,7 @@ $$
 L = \tfrac{1}{2} \sum_k \frac{\partial f_a}{\partial q_k} \dot{q}_k \sum_i \frac{\partial f_a}{\partial q_i} \dot{q}_i - U(q) = \tfrac{1}{2} \sum_{i,k} a_{i,k} (q) \dot{q}_i \dot{q}_k - U(q)
 $$
 
-For two interacting Lagrangian systems $L_a$, $L_b$ the combined interaction is deonted as
+For two interacting Lagrangian systems $$L_a$$, $$L_b$$ the combined interaction is deonted as
 
 $$
 L = T_a (q_a, \dot{q}_a) + T_b (q_b, \dot{q}_b) - U(q_a, q_b)
