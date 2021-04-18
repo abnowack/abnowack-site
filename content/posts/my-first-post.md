@@ -70,7 +70,7 @@ $$
 \frac{d}{dt} \frac{\partial L}{\partial \dot{q}_i} - \frac{\partial L}{\partial q_i} = 0 \qquad i = 1, 2, ..., s
 $$
 
-Which is referred to as the Lagrange's Equations of Motion, written above for $s$ coordinates.
+Which is referred to as the Lagrange's Equations of Motion, written above for $$s$$ coordinates.
 
 Lagrange's Equations describe the relationship between accelerations, velocities, and positions of a mechanical system. They yield $$s$$ 2nd order differential equations which require $$2s$$ boundary conditions to solve for the equations of motion in time $$q_i (t)$$
 
